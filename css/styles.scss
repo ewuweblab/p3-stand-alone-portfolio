@@ -6,17 +6,59 @@
 
 
 body {
-    background: #b5b5b5;
+    background: #ccc;
 }
+
+// Layout
+main {
+    background: red;
+    margin: 0 auto;
+    width: 90%;
+}
+// RWD header img
+main header img {
+    max-height: 400px;
+    width: 100%;
+    max-width: 100%;
+}
+
+// Random Backgrounds
+.bg0 {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/vintage-leaves.png");
+}
+
+.bg1 {
+  background: blue;
+}
+
+.bg2 {
+  background: green;
+}
+
 
 // Portfolio Items
-figure {
-    background: orange;
-    padding: 1em;
-    text-align: center;
-    width: 300px;
-}
-
 figure img {
     box-shadow: 2px 2px 2px gray;
 }
+
+// Flexbox Layout
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article figure {
+  background: orange;
+  padding: 2em;
+  width: 20em;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+

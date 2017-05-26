@@ -4,43 +4,37 @@
 @import "lightgallery";
 @import "lg-transitions";
 
-
 body {
     background: #ccc;
 }
 
 // Layout
 main {
-    background: red;
+    background: #fff;
     margin: 0 auto;
     width: 90%;
 }
+
 // RWD header img
 main header img {
-    max-height: 400px;
     width: 100%;
     max-width: 100%;
 }
 
 // Random Backgrounds
 .bg0 {
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/vintage-leaves.png");
+  background: #656565;
 }
 
 .bg1 {
-  background: blue;
+  background: #c3c3c3;
 }
 
 .bg2 {
-  background: green;
+  background: #989898;
 }
-
 
 // Portfolio Items
-figure img {
-    box-shadow: 2px 2px 2px gray;
-}
-
 // Flexbox Layout
 article {
   display: flex;
